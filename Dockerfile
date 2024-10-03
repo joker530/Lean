@@ -25,3 +25,5 @@ COPY ./Lean/DownloaderDataProvider/bin/Debug/ /Lean/DownloaderDataProvider/bin/D
 WORKDIR /Lean/Launcher/bin/Debug
 
 ENTRYPOINT [ "dotnet", "QuantConnect.Lean.Launcher.dll" ]
+
+# this is a branch test
